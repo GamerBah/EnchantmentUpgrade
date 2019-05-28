@@ -1,0 +1,37 @@
+# Configuration File for Enchantment Upgrade
+# Made by GamerBah
+# http://dev.bukkit.org/bukkit-plugins/enchantment-upgrade/
+
+# Set 'usePermissions' to true if you want the plugin to use permissions
+#         Default - false
+# Set 'breakBlocksOnUse' to false if you want the altar to remain once used
+#         Default - true
+# Set 'checkForUpdates' to false if you want to disable update checking
+#         Default - true
+# Set 'autoDownloadUpdates' to true if you want to enable downloading new versions of the plugin automatically
+#     NOTE: 'checkForUpdates' must be set to true
+#         Default - false
+
+usePermissions: false
+breakBlocksOnUse: true
+
+checkForUpdates: true
+autoDownloadUpdates: false
+
+upgrades:
+  protection:
+    displayItem: iron_bars
+    upgradeSlotsRequired:
+      1: 1
+  efficiency:
+    displayItem: diamond
+    upgradeSlotsRequired:
+      1: 1
+      2: 3
+      3: 5
+  trust:
+    displayItem: hopper
+    upgradeSlotsRequired:
+      1: 1
+      2: 2
+      3: 4

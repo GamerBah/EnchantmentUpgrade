@@ -1,0 +1,7 @@
+name: EnchantmentUpgrade
+main: me.gamerbah.EnchantmentUpgrade
+author: GamerBah
+version: 3.0.7
+commands:
+  altar:
+    description: Open the webpage showing how to build an altar
